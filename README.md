@@ -1,8 +1,7 @@
-###  DATE: 
-
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  DATE: 19.08.2024
+###  NAME: SUDHARSANA KUMAR S R
+###  ROLL NO :212223240162
+###  DEPARTMENT: AI-ML
 
 
 
@@ -81,20 +80,21 @@ The main features of LPC2148 include the following.
 ![image](https://user-images.githubusercontent.com/36288975/226189649-b5dff389-91df-4eca-b84a-1127c6562637.png)
 
 
-
-
-
-
 ## STM 32 CUBE PROGRAM :
+```
+while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(2000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(2000);
+    /* USER CODE END WHILE */
 
-
-
-
-
+    /* USER CODE BEGIN 3 */
+  }
+```
 ## OUTPUT  :
- 
- 
- 
+![image](https://github.com/user-attachments/assets/6f93eb23-112d-4ae5-9ff8-2175c0cc4542)
  
 ## Result :
 Interfacing a digital output with ARM microcontroller based IOT development is executed and the results are verified.
